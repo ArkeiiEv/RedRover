@@ -21,16 +21,16 @@ public class Task2 {
 
         double captainsLoot;
         double teamLoot;
-        double ownerLoot = amountOfLoot / 2;
+        double ownerLoot = (amountOfLoot) / 2;
 
         if(nameOfCaptain.equals(nameOfOwner)){
-            captainsLoot = ownerLoot + (ownerLoot / quantityofPirates);
+            captainsLoot = ownerLoot + (ownerLoot / ++quantityofPirates);
             teamLoot = (amountOfLoot - captainsLoot);
             System.out.println("I'm Jack Sparrow & I'm owner of this ship my loot = " + captainsLoot);
             System.out.println("Team's loot = " + teamLoot);
         }
         else {
-            captainsLoot = (amountOfLoot / 4) + ((amountOfLoot / 4) / quantityofPirates);
+            captainsLoot = (amountOfLoot / 4) + ((amountOfLoot / 4) / ++quantityofPirates);
             teamLoot = amountOfLoot - (ownerLoot + captainsLoot);
             System.out.println("Owner's loot = " + ownerLoot);
             System.out.println("Captain's loot = " + captainsLoot);
