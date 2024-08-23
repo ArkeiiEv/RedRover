@@ -15,6 +15,7 @@ public class Task2 {
 
         System.out.println("Enter owners name");
         String nameOfOwner = scanner.nextLine();
+
         System.out.println("Enter captain's name");
         String nameOfCaptain = scanner.nextLine();
 
