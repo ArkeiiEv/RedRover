@@ -25,9 +25,9 @@ public class Task2 {
 
         if(nameOfCaptain.equals(nameOfOwner)){
             captainsLoot = ownerLoot + (ownerLoot / quantityofPirates);
-            ownerLoot = 0.0;
             teamLoot = (amountOfLoot - captainsLoot);
             System.out.println("I'm Jack Sparrow & I'm owner of this ship my loot = " + captainsLoot);
+            System.out.println("Team's loot = " + teamLoot);
         }
         else {
             captainsLoot = (amountOfLoot / 4) + ((amountOfLoot / 4) / quantityofPirates);
