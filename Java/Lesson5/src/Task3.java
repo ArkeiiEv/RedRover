@@ -33,11 +33,11 @@ public class Task3 {
             for (int j = 0; j < i; j++) {
                 System.out.print("   ");
             }
-            for (int k = 9 - i; k >= 0; k--) {
-                System.out.print(k + " ");
+            for (int k = 10 - i; k >= 0; k--) {
+                System.out.print(k + "  ");
             }
             for (int l = 0; l <= 10 - i; l++) {
-                System.out.print(l + " ");
+                System.out.print(l + "  ");
             }
             System.out.println();
         }
