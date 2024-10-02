@@ -9,7 +9,7 @@ public class Employee extends Person{
         return this.getName().equals(employee.getName());
     }
 
-    protected double getSalary() {
+    public double getSalary() {
         return salary;
     }
 }
