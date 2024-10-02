@@ -31,4 +31,11 @@ public class MainTest {
         double actual = Main.divNumbers(15.0, 20.0);
         Assert.assertEquals(expected, actual, 0.001);
     }
+
+    @Test
+    public void testAbbrevitations() {
+        String expected = "Привет ...";
+        String actual = Main.abbrevitations("Привет всем кто живет на луне!", 10);
+        Assert.assertEquals(expected, actual);
+    }
 }
