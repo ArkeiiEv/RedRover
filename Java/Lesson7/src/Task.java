@@ -1,3 +1,5 @@
+package Java.Lesson7.src;
+
 import java.util.Scanner;
 public class Task {
     public static void main(String[] args) {

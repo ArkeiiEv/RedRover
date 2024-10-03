@@ -1,5 +1,5 @@
 import org.testng.Assert;
-import school.redRover.Main;
+import school.redrover.Main;
 import org.testng.annotations.Test;
 
 public class MainTest {

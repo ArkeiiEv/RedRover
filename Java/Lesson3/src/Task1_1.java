@@ -1,3 +1,5 @@
+package Java.Lesson3.src;
+
 import java.util.Scanner;
 
 public class Task1_1 {
