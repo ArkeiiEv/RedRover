@@ -1,4 +1,4 @@
-package school.redRover;
+package school.redrover;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -6,6 +6,10 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println(abbrevitations("Привет всем кто живет на луне", 10));
+        int a = 5;
+        int b = 10;
+        int key = a < b ? a : b;
+
     }
 
     public static double addNumbers(double a, double b){

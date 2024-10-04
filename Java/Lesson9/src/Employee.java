@@ -1,3 +1,5 @@
+package Java.Lesson9.src;
+
 public class Employee extends Person{
     private double salary;
     public Employee(String name, int age, char gender, double salary){

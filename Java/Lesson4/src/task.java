@@ -1,7 +1,9 @@
+package Java.Lesson4.src;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task {
+public class task {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Java.Lesson9.src;
+
 public class Salary extends Employee {
     public Salary(String name, int age, char gender, double salary) {
         super(name, age, gender, salary);
@@ -8,6 +10,7 @@ public class Salary extends Employee {
         for(Employee employee : employees){
             sum += employee.getSalary();
         }
+        System.out.println();
         return sum;
     }
 }
