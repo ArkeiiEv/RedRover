@@ -1,20 +1,19 @@
 package school.redrover;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+import static org.testng.Assert.assertNotNull;
 
 public class MainTest {
 
     private static WebDriver driver;
     private static MainPage mainPage;
 
-    @BeforeAll
-    public static void setUp() {
+    @BeforeClass
+    public void setUp() {
         driver = DriverSingleton.getDriver();
         driver.get("https://store.steampowered.com");
         mainPage = new MainPage(driver);
@@ -33,8 +32,8 @@ public class MainTest {
         assertNotNull(gutterHomePage, "Error: gutterHomePage");
     }
 
-    @AfterAll
-    public static void tearDown() {
+    @AfterClass
+    public void tearDown() {
         // Завершаем работу драйвера
         DriverSingleton.quitDriver();
     }
