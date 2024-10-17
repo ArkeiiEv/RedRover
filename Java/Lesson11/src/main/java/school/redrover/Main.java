@@ -33,7 +33,6 @@ public class Main {
     }
 
     public static String abbrevitations(String str, int maxWidth){
-        String result = StringUtils.abbreviate(str, maxWidth);
-        return result;
+        return StringUtils.abbreviate(str, maxWidth);
     }
 }
