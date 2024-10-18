@@ -1,0 +1,8 @@
+{
+"browser": "chrome",
+"headless": false,
+"arguments": [
+"--start-maximized",
+"--disable-extensions"
+]
+}
